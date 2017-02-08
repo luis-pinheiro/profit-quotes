@@ -45,13 +45,22 @@ $(document).ready(function(){
        document.getElementById("quote").innerHTML = items[rnd];
     }
 
-    random(); 
+    random();
 
-    $("#btn-qt").click(function() { 
+    $("#btn-qt").click(function() {
       bg = bgArray[Math.floor(Math.random() * bgArray.length)];
-      $('html').css({'background-image':'url(' + bg + ')'}); 
+      $('html').css({'background-image':'url(' + bg + ')'});
       random();
     });
 
-});
+    /*
+    * Window close
+    */
+    var ipc = require('ipc');
 
+    var closeEl = document.querySelector('.close');
+    closeEl.addEventListener('click', function () {
+        ipc.send('close-main-window');
+    });
+
+});

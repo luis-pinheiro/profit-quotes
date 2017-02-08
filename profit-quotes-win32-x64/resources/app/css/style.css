@@ -28,3 +28,12 @@ html .qt .show-quote h3 {
 html .qt .show-quote h3 p {
   font-size: 20px;
 }
+
+button {
+    /* margin-left: auto; */
+    -webkit-app-region: no-drag;
+    /* margin-right: auto; */
+    bottom: 50px !important;
+    position: fixed;
+    left: 50%;
+}

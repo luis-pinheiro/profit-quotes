@@ -13,7 +13,13 @@ let mainWindow
 
 function createWindow () {
   // Create the browser window.
-  mainWindow = new BrowserWindow({width: 820, height: 560})
+  mainWindow = new BrowserWindow({
+    width: 820,
+    height: 560,
+    alwaysOnTop: true,
+    // frame: false
+  })
+  mainWindow.setFullScreen(true)
 
   // and load the index.html of the app.
   mainWindow.loadURL(url.format({
@@ -23,7 +29,7 @@ function createWindow () {
   }))
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools()
+  // mainWindow.webContents.openDevTools()
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
