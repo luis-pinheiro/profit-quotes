@@ -14,12 +14,12 @@ let mainWindow
 function createWindow() {
     // Create the browser window.
     mainWindow = new BrowserWindow({
-        width: 820,
-        height: 560,
-        // alwaysOnTop: true,
-        // frame: false
-    })
-    mainWindow.setFullScreen(true)
+            width: 820,
+            height: 560,
+            // alwaysOnTop: true,
+            // frame: false
+        })
+        // mainWindow.setFullScreen(true)
 
     // and load the index.html of the app.
     mainWindow.loadURL(url.format({
