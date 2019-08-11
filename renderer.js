@@ -33,11 +33,11 @@ $(document).ready(function(){
         'Seguros e confiantes... Sempre! <br> <h6>Insurance and confident. Always!</h6>',
         'Podemos não voltar, mas vamos <br> <h6>We may not come back, but we go.</h6>',
         'Als k werk als programeur kan k bijna elke vrouw hebben.',
-        'Se nao a tratas bem, ha quem a trate.',
+        'Se nao a tratas bem, <br> Ha quem a trate.',
         'Do not go where the path may lead, <br> go instead where there is no path and leave a trail. <br> <br> <h6>"Ralph Waldo Emerson"</h6>',
         'Allways use the AIDA model, <br> which stands for "Atention, Interest, Desire and Action". <br> <br> <h6> ===== Fiverr ===== </h6>',
         'Giving a detailed, <br> personalized response in a timely manner shows that you’ve listened to the Buyer’s request, <br> and you’re not reciting a canned response. <br> <br> <h6> ===== Fiverr ===== </h6>',
-        'If you fail to plan, You plan to fail. <br> ===== Fiverr===== ',
+        'If you fail to plan, You plan to fail. <br> <h6> ===== Fiverr ===== </h6>',
         'Always dress for success. <br> Get dressed for freelance work as if you were going to an office. <br> You will feel more in step with your work, and perform better. <br> <br> <h6> ===== Fiverr ===== </h6>',
         'An organized, <br> dedicated workspace where your surroundings are in order is a great way to feel relaxed, <br> comfortable and focused.<br> <br> <h6> ===== Fiverr ===== </h6>',
         'A vida é dura para quem é mole.'

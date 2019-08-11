@@ -1,7 +1,7 @@
 {
   "name": "profit-quotes",
   "version": "1.0.0",
-  "description": "Random Militar Quotes",
+  "description": "Random Motivational Quotes",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
