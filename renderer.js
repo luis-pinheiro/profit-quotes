@@ -28,13 +28,19 @@ $(document).ready(function(){
         'É perante o obstáculo, que o homem se descobre <br> <h6>Is faced with the obstacle, the man discovers himself.</h6>',
         'Se é possível está feito, se é impossível há-de fazer-se <br> <h6>If it is possible it is done, if it is impossible it will be done.</h6>',
         'Audácia, prudência... Caminho para o êxito <br> <h6>Audacity, prudence ... Path to success.</h6>',
-        'Todos os páras são voluntários. Nem todos os voluntários conseguem a boina verde <br> <h6>All paratroopers are volunteers. Not all volunteers get the green beret.</h6>',
         'Instrução dura... Combate fácil <br> <h6>Hard instruction ... Easy combat.</h6>',
         'Que nunca por vencidos se conheçam <br> <h6>That never by losers be know.</h6>',
-        'Deixa arder em ti a chama de ser Prec <br> <h6>Let burn in you de flame of being Airfield Precursor.</h6>',
         'Seguros e confiantes... Sempre! <br> <h6>Insurance and confident. Always!</h6>',
         'Podemos não voltar, mas vamos <br> <h6>We may not come back, but we go.</h6>',
-        'O que somos?... Amigos! <br /> O que queremos?... Alvorada! <br /> O que amamos?... O perigo! <br /> O que tememos?... Nada! <br /> Em posição!... Já! <br> <h6>What are we? ... Friends! <br> What do we want? ... Dawn! <br> What do we love? ... The danger! <br> What do we fear? ... Nothing! <br> In position! ... Now!</h6>'
+        'Als k werk als programeur kan k bijna elke vrouw hebben.',
+        'Se nao a tratas bem, ha quem a trate.',
+        'Do not go where the path may lead, <br> go instead where there is no path and leave a trail. <br> <br> <h6>"Ralph Waldo Emerson"</h6>',
+        'Allways use the AIDA model, <br> which stands for "Atention, Interest, Desire and Action". <br> <br> <h6> ===== Fiverr ===== </h6>',
+        'Giving a detailed, <br> personalized response in a timely manner shows that you’ve listened to the Buyer’s request, <br> and you’re not reciting a canned response. <br> <br> <h6> ===== Fiverr ===== </h6>',
+        'If you fail to plan, You plan to fail. <br> ===== Fiverr===== ',
+        'Always dress for success. <br> Get dressed for freelance work as if you were going to an office. <br> You will feel more in step with your work, and perform better. <br> <br> <h6> ===== Fiverr ===== </h6>',
+        'An organized, <br> dedicated workspace where your surroundings are in order is a great way to feel relaxed, <br> comfortable and focused.<br> <br> <h6> ===== Fiverr ===== </h6>',
+        'A vida é dura para quem é mole.'
     ];
 
     var maxItems = items.length;

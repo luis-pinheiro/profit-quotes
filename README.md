@@ -2,6 +2,9 @@
 
 **App to show random military quotes**
 
+run:
+yarn install
+yarn start
 To compile install electron-packager
 
 [Download it here](https://github.com/ProfitCreations/profit-quotes/releases/)
