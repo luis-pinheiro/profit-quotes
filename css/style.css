@@ -1,11 +1,11 @@
 html {
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  min-heigth: 100% !important;
+  /* min-heigth: 100% !important; */
   transition: .3s;
 }
 html body {
-  min-heigth: 100% !important;
+  /* min-heigth: 100% !important; */
   background-size: cover !important;
   background-repeat: no-repeat !important;
 }

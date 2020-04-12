@@ -1,44 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="./bower_components/materialize/dist/css/materialize.min.css" media="screen,projection">
-    <link rel="stylesheet" href="./css/style.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <style media="screen">
+  <link rel="stylesheet" href="./bower_components/materialize/dist/css/materialize.min.css" media="screen,projection">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <style media="screen">
     button {
       -webkit-app-region: no-drag;
-      }
-    </style>
-  </head>
-  <body style="-webkit-app-region: drag">
+    }
+  </style>
+</head>
+
+<body style="-webkit-app-region: drag">
 
 
 
-    <div class="container">
-      <div class="row">
+  <div class="container">
+    <!-- <div class="row">
         <div class="col s4"></div>
         <div class="col s4 m4 qt"><h5 class="center-align">Military quotes</h5></div>
         <div class="col s4"></div>
 
-      </div>
-      <div class="row qt z-depth-5">
-        <div class="col s12">
-          <div class="show-quote ">
-            <h4 id="quote" class="center-align"></h4>
-          </div>
-      </div>
-        <div class="row">
-          <div class="col s6 center-align">
-             <!-- <a id="tw" class="btn-floating btn-large waves-effect waves-light blue " href="https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> -->
-          </div>
-          <div class="col s6 center-align">
-            <a id="btn-qt" class="waves-effect waves-light btn-large indigo darken2" onclick="random()">new random quote</a>
-          </div>
+      </div> -->
+    <div class="row qt z-depth-5">
+      <!-- <div class="col s12">
+        <div class="show-quote ">
+          <h4 id="quote" class="center-align"></h4>
         </div>
+      </div> -->
+      <div class="row">
+        <div class="col s6 center-align">
+          <!-- <a id="tw" class="btn-floating btn-large waves-effect waves-light blue " href="https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> -->
+        </div>
+        <div class="col s6 center-align">
+          <a id="btn-qt" class="waves-effect waves-light btn-large indigo darken2">new random quote</a>
+        </div>
+      </div>
     </div>
 
 
@@ -49,50 +51,50 @@
     <script src="./bower_components/jquery/dist/jquery.min.js"></script>
     <script src="./bower_components/materialize/dist/js/materialize.min.js"></script>
 
-   <script>
-     // You can also require other files to run in this process
-     require('./renderer.js');
-     window.jQuery = window.$ = require('jquery');
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js');
+      window.jQuery = window.$ = require('jquery');
     //  require('./js/window.js');
 
-   </script>
-   <script>
-        (function () {
-            // Retrieve remote BrowserWindow
-            const {BrowserWindow} = require('electron').remote
+    </script>
+    <script>
+      (function () {
+        // Retrieve remote BrowserWindow
+        const { BrowserWindow } = require('electron').remote
 
-            function init() {
-                // Minimize task
-                document.getElementById("min-btn").addEventListener("click", (e) => {
-                    var window = BrowserWindow.getFocusedWindow();
-                    window.minimize();
-                });
+        function init() {
+          // Minimize task
+          document.getElementById("min-btn").addEventListener("click", (e) => {
+            var window = BrowserWindow.getFocusedWindow();
+            window.minimize();
+          });
 
-                // Maximize window
-                document.getElementById("max-btn").addEventListener("click", (e) => {
-                    var window = BrowserWindow.getFocusedWindow();
-                    if(window.isMaximized()){
-                        window.unmaximize();
-                    }else{
-                        window.maximize();
-                    }
-                });
+          // Maximize window
+          document.getElementById("max-btn").addEventListener("click", (e) => {
+            var window = BrowserWindow.getFocusedWindow();
+            if (window.isMaximized()) {
+              window.unmaximize();
+            } else {
+              window.maximize();
+            }
+          });
 
-                // Close app
-                document.getElementById("close-btn").addEventListener("click", (e) => {
-                    var window = BrowserWindow.getFocusedWindow();
-                    window.close();
-                });
-            };
+          // Close app
+          document.getElementById("close-btn").addEventListener("click", (e) => {
+            var window = BrowserWindow.getFocusedWindow();
+            window.close();
+          });
+        };
 
-            document.onreadystatechange =  () => {
-                if (document.readyState == "complete") {
-                    init();
-                }
-            };
-        })();
-        </script>
-  </body>
+        document.onreadystatechange = () => {
+          if (document.readyState == "complete") {
+            init();
+          }
+        };
+      })();
+    </script>
+</body>
 
 
 </html>

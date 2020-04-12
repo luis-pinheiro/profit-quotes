@@ -14,10 +14,10 @@ let mainWindow
 function createWindow() {
     // Create the browser window.
     mainWindow = new BrowserWindow({
-            width: 820,
-            height: 560,
-            // alwaysOnTop: true,
-            // frame: false
+            width: 526,
+            height: 526,
+            alwaysOnTop: true,
+            /*  frame: false */
         })
         // mainWindow.setFullScreen(true)
 
@@ -29,7 +29,7 @@ function createWindow() {
     }))
 
     // Open the DevTools.
-    // mainWindow.webContents.openDevTools()
+    mainWindow.webContents.openDevTools()
 
     // Emitted when the window is closed.
     mainWindow.on('closed', function() {
