@@ -18,11 +18,12 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "bootstrap": "^4.0.0-alpha.6",
-    "electron": "^1.4.1",
+    "bootstrap": "^4.4.1",
+    "electron": "^8.2.1",
     "ipc": "0.0.1"
   },
   "dependencies": {
-    "jquery": "^3.1.1"
+    "jquery": "^3.5.0",
+    "material-design-icons": "^3.0.1"
   }
 }
