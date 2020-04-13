@@ -4,6 +4,8 @@ const app = electron.app
     // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow
 
+
+
 const path = require('path')
 const url = require('url')
 
@@ -14,10 +16,17 @@ let mainWindow
 function createWindow() {
     // Create the browser window.
     mainWindow = new BrowserWindow({
-            width: 820,
-            height: 560,
-            // alwaysOnTop: true,
-            // frame: false
+            width: 400,
+            height: 600,
+            alwaysOnTop: true,
+            titleBarStyle: 'customButtonsOnHover',
+             frame: false,
+             transparent: true,
+             center: true,
+             resizable: true,
+             hasShadow: true,
+
+            
         })
         // mainWindow.setFullScreen(true)
 
@@ -44,6 +53,8 @@ function createWindow() {
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
 app.on('ready', createWindow)
+
+// app.allowRendererProcessReuse = true
 
 // Quit when all windows are closed.
 app.on('window-all-closed', function() {

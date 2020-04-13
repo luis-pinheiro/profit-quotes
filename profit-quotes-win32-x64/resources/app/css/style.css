@@ -1,11 +1,13 @@
+@import url(./iconfont/material-icons.css);
+
 html {
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  min-heigth: 100% !important;
+  /* min-heigth: 100% !important; */
   transition: .3s;
 }
 html body {
-  min-heigth: 100% !important;
+  /* min-heigth: 100% !important; */
   background-size: cover !important;
   background-repeat: no-repeat !important;
 }
@@ -30,10 +32,10 @@ html .qt .show-quote h3 p {
 }
 
 button {
-    /* margin-left: auto; */
-    -webkit-app-region: no-drag;
-    /* margin-right: auto; */
-    bottom: 50px !important;
-    position: fixed;
-    left: 50%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#btn-qt{
+  -webkit-app-region: no-drag;
 }

@@ -1,11 +1,14 @@
 # Profit Quotes
 
-**App to show random military quotes**
-
+**App to show random motivational quotes**
+'''sh
 run:
-yarn install
-yarn start
-To compile install electron-packager
+npm install
+npm run start
+
+To compile:
+npm run inpack
+'''
 
 [Download it here](https://github.com/ProfitCreations/profit-quotes/releases/)
 
